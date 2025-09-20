@@ -1,6 +1,6 @@
-# 1. Create README.md with content
+# 1.  README.md with content
 cat > README.md << 'EOF'
-# 🔐 Secure Password Manager
+# 🔐  Password Vault
 
 A secure, local, and open-source password manager built with **Python, SQLite, and Fernet encryption**. It provides a simple **Tkinter GUI** to store, search, and manage credentials offline.
 
@@ -20,8 +20,8 @@ A secure, local, and open-source password manager built with **Python, SQLite, a
 
 ### 1. Clone Repository
 \`\`\`bash
-git clone https://github.com/yourusername/secure-password-manager.git
-cd secure-password-manager
+git clone [https://github.com/VongaiWitcho/Password-Vault.git]
+cd Password-Vault
 \`\`\`
 
 ### 2. Install Dependencies
@@ -31,7 +31,7 @@ pip install cryptography
 
 ### 3. Run Application
 \`\`\`bash
-python secure_password_manager.py
+python password_vault.py
 \`\`\`
 
 On the first run, you’ll be prompted to create a **master password**. This password encrypts your vault. **There is no recovery if you forget it!**
@@ -45,15 +45,14 @@ On the first run, you’ll be prompted to create a **master password**. This pas
 ---
 
 ## 🖼️ Screenshots (placeholders)
-1. ![Screenshot 1 - Unlock Screen](screenshots/screenshot1.png)
-2. ![Screenshot 2 - Main Vault View](screenshots/screenshot2.png)
+1. ![Screenshot 1 - Create master password](createmaster.PNG)
+2. ![Screenshot 2 - Main Vault View](mainview.png)
 3. ![Screenshot 3 - Add Credential](screenshots/screenshot3.png)
 4. ![Screenshot 4 - Edit Credential](screenshots/screenshot4.png)
 5. ![Screenshot 5 - Password Generator](screenshots/screenshot5.png)
 6. ![Screenshot 6 - Export Backup](screenshots/screenshot6.png)
 7. ![Screenshot 7 - Search Results](screenshots/screenshot7.png)
 
-*(Add real screenshots in the \`/screenshots\` folder)*
 
 ---
 
@@ -70,17 +69,6 @@ MIT License. Free to use, modify, and distribute.
 ---
 
 ## 👨‍💻 Author
-Developed by *Your Name* ✨
+Developed by Vongai ✨
 EOF
 
-# 2. Create screenshots folder
-mkdir -p screenshots
-
-# 3. Add 7 placeholder screenshot files
-for i in {1..7}; do
-  echo "Placeholder for Screenshot $i" > screenshots/screenshot${i}.png
-done
-
-# 4. Add everything to git (if repo is initialized)
-git add README.md screenshots/
-git commit -m "Add README with instructions and 7 screenshot placeholders"
