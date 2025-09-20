@@ -44,7 +44,7 @@ On the first run, you’ll be prompted to create a **master password**. This pas
 
 ---
 
-## 🖼️ Screenshots (placeholders)
+## 🖼️ Screenshots
 1. ![Screenshot 1 - Create master password](createmaster.PNG)
 2. ![Screenshot 2 - Main Vault View](mainview.png)
 3. ![Screenshot 3 - Add Credential](screenshots/screenshot3.png)
