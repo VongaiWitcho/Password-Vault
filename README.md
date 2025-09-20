@@ -46,12 +46,13 @@ On the first run, you’ll be prompted to create a **master password**. This pas
 
 ## 🖼️ Screenshots
 1. ![Screenshot 1 - Create master password](createmaster.PNG)
-2. ![Screenshot 2 - Main Vault View](mainview.png)
-3. ![Screenshot 3 - Add Credential](screenshots/screenshot3.png)
-4. ![Screenshot 4 - Edit Credential](screenshots/screenshot4.png)
-5. ![Screenshot 5 - Password Generator](screenshots/screenshot5.png)
-6. ![Screenshot 6 - Export Backup](screenshots/screenshot6.png)
-7. ![Screenshot 7 - Search Results](screenshots/screenshot7.png)
+2. ![Screenshot 2 - Confirming master password](confirmmaster.PNG)
+3. ![Screenshot 3 - Main Vault View](mainview.PNG)
+4. ![Screenshot 4 - Add Credential](credential.PNG)
+5. ![Screenshot 5 - Edit Credential](edit.PNG)
+6. ![Screenshot 6 - Password Generator](encryptedpass.PNG)
+7. ![Screenshot 7 - Export Backup](backup.PNG)
+8. ![Screenshot 8 - Search Results](search.PNG)
 
 
 ---
